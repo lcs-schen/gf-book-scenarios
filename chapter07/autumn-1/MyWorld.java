@@ -15,6 +15,20 @@ public class MyWorld extends World
     {    
         super(600, 400, 1);
         setUp();
+        
+        //create 18 leaf objects
+        for(int i = 1;i<= 18; i += 1)
+        {
+            //create the object
+            Leaf aLeaf = new Leaf();
+            
+            //position
+            int x = Greenfoot.getRandomNumber(600);
+            int y = Greenfoot.getRandomNumber(400);
+            
+            //now actually add the object to the world
+            addObject(aLeaf, x, y);
+        }
     }
     
     /**
