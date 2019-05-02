@@ -1,5 +1,7 @@
 import greenfoot.*;
 
+
+
 /**
  * Autumn. A world with some leaves.
  * 
@@ -38,4 +40,6 @@ public class MyWorld extends World
     {
         addObject(new Block(), 300, 200);
     }
+    
+  
 }
